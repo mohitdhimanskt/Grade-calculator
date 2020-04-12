@@ -6,5 +6,7 @@ if(grade <= 100 && grade >= 90){
 }else if(grade >= 70){
     console.log('Your got a' + 'C' + '(' + grade + '%' + ')!')
 }else if(grade >= 60){
-    console.log('Your got a' + 'c' + '(' + grade + '%' + ')!') 
+    console.log('Your got a' + 'D' + '(' + grade + '%' + ')!') 
+}else if(grade >= 0){
+    console.log('Your got a' + 'E' + '(' + grade + '%' + ')!')
 }
